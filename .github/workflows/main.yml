@@ -31,7 +31,7 @@ jobs:
           
       - name: Deploy react app to github pages
         run: |
-          git config user.name mvdegtyar
-          git config user.email mv.degtyar@gmail.com
+          git config user.name "mvdegtyar"
+          git config user.email "mv.degtyar@gmail.com"
           git remote set-url origin https://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@github.com/mvdegtyar/react-player.git
           npm run deploy
